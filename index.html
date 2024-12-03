@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <style>
+        a{
+            font-size: 30px;
+            color:rgb(110, 199, 235);
+            text-align: center;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 550;
+        }
+        a:hover {
+            color: rgb(231, 239, 239) ;
+        }
+        .one{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }   
+        .mainly{
+            text-align: center;
+            background-image: url('img/首页背景2.png');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+
+            
+        }
+        @keyframes move{
+                0%{
+                    background-position: 0% 50%;
+                }
+                50%{
+                    background-position: 100% 50%;
+                }
+                100%{
+                    background-position: 0% 50%;
+                }
+        }
+        .te{
+            font-weight: 600;
+            background-size: 200%;
+            animation:move 10s infinite;
+            background-clip: text;
+            -webkit-background-clip: text;
+            background-image:linear-gradient(
+                125deg,#3d27ae,#2c3e50,#217dba,#0b14c0,#8e44ad
+            );
+            color: transparent;
+        }
+        .nei{
+            background-color: #ffffff41;
+            border-radius: 4%;
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        body{
+            background-image: url('img/首页背景1.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+        }
+        hr{
+            border-width: 3px;
+            border-color: rgb(186, 220, 215);
+        }
+        p{
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+        <span style="font-size: 50px; color: rgb(104, 175, 237); margin-left: 36px;">  导航</span>
+        <div  class="one">
+        <a href="index.html">首页</a>
+        <a href="web/个人介绍.html">个人简介</a>
+        <a href="web/我的分享.html">我的分享</a> 
+        <a href="web/我的相册.html">我的相册</a> 
+        <a href="web/学习心得.html">学习心得</a> 
+        <a href="web/写信给我.html">写信给我</a> 
+        <a href="#">返回寝室</a>
+    </div>
+    <hr>
+    <div class="mainly">
+        <br><br><br><br><br><br>
+        <div class="te">
+            <div class="nei">
+        <p>٩(๑˃̵ᴗ˂̵๑)۶</p>
+        <p style="font-family: 楷体;">我是计科启明2401班</p>
+        <p style="font-family: 楷体;">来自109寝室的许章翔</p> 
+        <p style="font-family: 'Times New Roman', Times, serif;font-style:italic;">Welcome to my web page</p>
+        <p>( • ̀ω•́ )</p>
+    </div>
+        </div>
+        <br><br><br><br><br><br>
+    </div>
+    <hr>
+    <br><br><br><br><br><br>
+</body>
+</html>
